@@ -1,6 +1,6 @@
 OutreachAI is a Streamlit-based SaaS-style cold email generator that turns a public job posting into a concise, personalized outreach email.
 
-Features
+Features:- 
 
 AI Job Extraction — Loads a public career page and extracts the primary job posting.
 
@@ -28,7 +28,7 @@ SaaS UI — Sidebar navigation, workspace cards, metrics, email preview, and set
 
 No Separate CSS File — Styling is contained in main.py.
 
-Tech Stack
+Tech Stack:-
 
 Python
 
@@ -46,7 +46,7 @@ WebBaseLoader
 
 python-dotenv
 
-Project Structure
+Project Structure:-
 
 Cold Email Generator/
 │
@@ -60,7 +60,7 @@ Cold Email Generator/
 
 The Streamlit entry point is app.py/main.py.
 
-Application Flow
+Application Flow :-
 
 Job URL + User Details
           ↓
