@@ -500,7 +500,7 @@ if page == "⚙  Settings":
         <div class="card">
             <div class="card-title">Workspace settings</div>
             <div class="card-desc">
-                Configuration used by the generator.
+                Manage your OutreachAI workspace preferences.
             </div>
         </div>
         """,
@@ -508,9 +508,10 @@ if page == "⚙  Settings":
     )
 
     st.markdown('<div class="section-space"></div>', unsafe_allow_html=True)
-    st.info("The app reads GROQ_API_KEY from your .env file.")
-    st.markdown("**Model:** `openai/gpt-oss-20b`")
-    st.markdown("**Temperature:** `0`")
+
+    st.info(
+        "Your AI configuration is securely managed by the application."
+    )
 
     st.stop()
 
