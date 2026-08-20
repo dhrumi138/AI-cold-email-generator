@@ -541,12 +541,10 @@ with left:
     )
 
     job_url = st.text_input(
-        "Career page URL",
-        value="https://careers.nike.com/lead-technology-business-consultant-itc/job/R-90109",
-        placeholder="https://company.com/careers/job...",
-        help="Paste the public career page URL.",
-    )
-
+    "Career page URL",
+    placeholder="https://company.com/careers/job...",
+    help="Paste the public career page URL.",
+)
     st.markdown(
         '<div class="section-space"></div>',
         unsafe_allow_html=True,
